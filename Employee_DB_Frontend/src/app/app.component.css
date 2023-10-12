@@ -1,0 +1,5 @@
+.nav-item.active a.nav-link {
+  background-color: #3f51b5; /* Change the background color to your preference */
+  color: #ffffff; /* Change the text color to your preference */
+  /* Add any other custom styles as needed */
+}

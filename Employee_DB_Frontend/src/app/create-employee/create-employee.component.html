@@ -1,0 +1,52 @@
+<form
+  [formGroup]="form"
+  (ngSubmit)="onSubmit()"
+  class="d-flex flex-column w-50 mx-auto h-100 my-4"
+>
+  <mat-form-field>
+    <mat-label>Name:</mat-label>
+    <input
+      type="text"
+      matInput
+      formControlName="name"
+      [placeholder]="'Please enter name...'"
+    />
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Age:</mat-label>
+    <input
+      type="text"
+      matInput
+      formControlName="age"
+      [placeholder]="'Please enter age...'"
+    />
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Job:</mat-label>
+    <input
+      type="text"
+      matInput
+      formControlName="job"
+      [placeholder]="'Please enter job...'"
+    />
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Location:</mat-label>
+    <input
+      type="text"
+      matInput
+      formControlName="location"
+      [placeholder]="'Please enter location...'"
+    />
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Email:</mat-label>
+    <input
+      type="email"
+      matInput
+      formControlName="email"
+      [placeholder]="'Please enter email...'"
+    />
+  </mat-form-field>
+  <button class="btn btn-primary">Submit</button>
+</form>
